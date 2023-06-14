@@ -18,3 +18,23 @@ E:\RANDOM FILE KULIAH\SEMESTER 2\PBO\TM\DATA PENGGUNA\COBA UP IMAGE\COBA UP IMAG
 E:\RANDOM FILE KULIAH\SEMESTER 2\PBO\TM\DATA PENGGUNA\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.pdb
 E:\RANDOM FILE KULIAH\SEMESTER 2\PBO\TM\DATA PENGGUNA\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.genruntimeconfig.cache
 E:\RANDOM FILE KULIAH\SEMESTER 2\PBO\TM\DATA PENGGUNA\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\ref\COBA UP IMAGE.dll
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\bin\Debug\net6.0-windows\COBA UP IMAGE.exe
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\bin\Debug\net6.0-windows\COBA UP IMAGE.deps.json
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\bin\Debug\net6.0-windows\COBA UP IMAGE.runtimeconfig.json
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\bin\Debug\net6.0-windows\COBA UP IMAGE.dll
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\bin\Debug\net6.0-windows\COBA UP IMAGE.pdb
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\bin\Debug\net6.0-windows\Npgsql.dll
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.csproj.AssemblyReference.cache
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA_UP_IMAGE.Form1.resources
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.csproj.GenerateResource.cache
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.GeneratedMSBuildEditorConfig.editorconfig
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.AssemblyInfoInputs.cache
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.AssemblyInfo.cs
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.csproj.CoreCompileInputs.cache
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.csproj.CopyComplete
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.dll
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\refint\COBA UP IMAGE.dll
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.pdb
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\COBA UP IMAGE.genruntimeconfig.cache
+E:\kuliah\SEM 2\PBO\File Codingan\Upload-Gambar-DB\COBA UP IMAGE\COBA UP IMAGE\obj\Debug\net6.0-windows\ref\COBA UP IMAGE.dll
