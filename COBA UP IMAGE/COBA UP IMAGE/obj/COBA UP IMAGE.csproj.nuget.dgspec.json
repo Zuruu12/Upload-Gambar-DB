@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\RANDOM FILE KULIAH\\SEMESTER 2\\PBO\\TM\\DATA PENGGUNA\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj": {}
+    "E:\\kuliah\\SEM 2\\PBO\\File Codingan\\Upload-Gambar-DB\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj": {}
   },
   "projects": {
-    "E:\\RANDOM FILE KULIAH\\SEMESTER 2\\PBO\\TM\\DATA PENGGUNA\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj": {
+    "E:\\kuliah\\SEM 2\\PBO\\File Codingan\\Upload-Gambar-DB\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RANDOM FILE KULIAH\\SEMESTER 2\\PBO\\TM\\DATA PENGGUNA\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj",
+        "projectUniqueName": "E:\\kuliah\\SEM 2\\PBO\\File Codingan\\Upload-Gambar-DB\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj",
         "projectName": "COBA UP IMAGE",
-        "projectPath": "E:\\RANDOM FILE KULIAH\\SEMESTER 2\\PBO\\TM\\DATA PENGGUNA\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "E:\\RANDOM FILE KULIAH\\SEMESTER 2\\PBO\\TM\\DATA PENGGUNA\\COBA UP IMAGE\\COBA UP IMAGE\\obj\\",
+        "projectPath": "E:\\kuliah\\SEM 2\\PBO\\File Codingan\\Upload-Gambar-DB\\COBA UP IMAGE\\COBA UP IMAGE\\COBA UP IMAGE.csproj",
+        "packagesPath": "C:\\Users\\yusri\\.nuget\\packages\\",
+        "outputPath": "E:\\kuliah\\SEM 2\\PBO\\File Codingan\\Upload-Gambar-DB\\COBA UP IMAGE\\COBA UP IMAGE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yusri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

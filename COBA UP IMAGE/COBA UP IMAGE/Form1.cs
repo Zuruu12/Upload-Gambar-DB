@@ -10,12 +10,12 @@ namespace COBA_UP_IMAGE
 {
     public partial class Form1 : Form
     {
-        private NpgsqlConnection connection;
 
         private string sql;
         private NpgsqlCommand cmd;
         private DataTable dt;
-        private string connectionString = "Host=localhost;Port=5432;Database=image;Username=postgres;Password=QWERTY30";
+        private string connectionString = "Host=localhost;Port=5432;Database=image;Username=postgres;Password=Yus2064.";
+
         public Form1()
         {
             InitializeComponent();
@@ -50,11 +50,12 @@ namespace COBA_UP_IMAGE
 
                         using (NpgsqlCommand command = new NpgsqlCommand("INSERT INTO img (id_img, nama_img,image) VALUES (@id_img, @nama_img,@ImageData)", connection))
                         {
-                            command.Parameters.AddWithValue("@id_img", textBox1.Text);
+                            command.Parameters.AddWithValue("@id_img", Convert.ToInt32(textBox1.Text));
                             command.Parameters.AddWithValue("@nama_img", textBox2.Text);
                             command.Parameters.AddWithValue("@ImageData", imageData);
                             command.ExecuteNonQuery();
                         }
+                        connection.Close();
                     }
 
                     MessageBox.Show("Image uploaded successfully!");
@@ -71,19 +72,39 @@ namespace COBA_UP_IMAGE
         {
             try
             {
-                connection.Open();
-                sql = @"SELECT * FROM img";
-                cmd = new NpgsqlCommand(sql, connection);
-                dt = new DataTable();
-                dt.Load(cmd.ExecuteReader());
-                connection.Close();
-                dgv1.DataSource = null;
-                dgv1.DataSource = dt;
-                
+                using (NpgsqlConnection connection = new NpgsqlConnection(connectionString))
+                {
+
+                    string connectionString = "Host=localhost;Port=5432;Database=image;Username=postgres;Password=Yus2064.";
+                    string query = "SELECT image FROM img WHERE id_img = @id_img AND nama_img = @nama_img";
+                    using (NpgsqlCommand command = new NpgsqlCommand(query, connection))
+                    {
+                        connection.Open();
+
+                        command.Parameters.AddWithValue("@id_img", Convert.ToInt32(textBox1.Text));
+                        command.Parameters.AddWithValue("@nama_img", textBox2.Text);
+
+                        using (NpgsqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                byte[] imageData = (byte[])reader["image"];
+                                using (MemoryStream ms = new MemoryStream(imageData))
+                                {
+                                    pictureBox1.BackgroundImage = Image.FromStream(ms);
+                                }
+                            }
+                        }
+                        connection.Close();
+
+                    }
+                }
+
+
+
             }
             catch (Exception ex)
             {
-                connection.Close();
                 MessageBox.Show("error" + ex.Message);
             }
         }
@@ -91,12 +112,27 @@ namespace COBA_UP_IMAGE
         private void button1_Click(object sender, EventArgs e)
         {
             ShowData();
+            label3.Text = textBox2.Text;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            connection = new NpgsqlConnection(connectionString);
 
+        }
+
+        private void dgv1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
         }
     }
 }

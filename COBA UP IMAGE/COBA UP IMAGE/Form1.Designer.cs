@@ -28,123 +28,134 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnUpload = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.image1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.dgv1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.image1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
-            this.SuspendLayout();
+            btnUpload = new Button();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            image1 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            panel1 = new Panel();
+            button1 = new Button();
+            pictureBox1 = new PictureBox();
+            label3 = new Label();
+            ((System.ComponentModel.ISupportInitialize)image1).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // btnUpload
             // 
-            this.btnUpload.Location = new System.Drawing.Point(374, 246);
-            this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(94, 29);
-            this.btnUpload.TabIndex = 0;
-            this.btnUpload.Text = "Browse";
-            this.btnUpload.UseVisualStyleBackColor = true;
-            this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
+            btnUpload.Location = new Point(374, 246);
+            btnUpload.Name = "btnUpload";
+            btnUpload.Size = new Size(94, 29);
+            btnUpload.TabIndex = 0;
+            btnUpload.Text = "Browse";
+            btnUpload.UseVisualStyleBackColor = true;
+            btnUpload.Click += btnUpload_Click;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(80, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 1;
+            textBox1.Location = new Point(80, 75);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(80, 147);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 27);
-            this.textBox2.TabIndex = 2;
+            textBox2.Location = new Point(80, 147);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(125, 27);
+            textBox2.TabIndex = 2;
             // 
             // image1
             // 
-            this.image1.Location = new System.Drawing.Point(6, 1);
-            this.image1.Name = "image1";
-            this.image1.Size = new System.Drawing.Size(191, 198);
-            this.image1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.image1.TabIndex = 3;
-            this.image1.TabStop = false;
+            image1.Location = new Point(6, 1);
+            image1.Name = "image1";
+            image1.Size = new Size(191, 198);
+            image1.SizeMode = PictureBoxSizeMode.StretchImage;
+            image1.TabIndex = 3;
+            image1.TabStop = false;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 20);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "id";
+            label1.AutoSize = true;
+            label1.Location = new Point(80, 45);
+            label1.Name = "label1";
+            label1.Size = new Size(22, 20);
+            label1.TabIndex = 4;
+            label1.Text = "id";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(80, 124);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 20);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Nama";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(80, 124);
+            label2.Name = "label2";
+            label2.Size = new Size(49, 20);
+            label2.TabIndex = 5;
+            label2.Text = "Nama";
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.image1);
-            this.panel1.Location = new System.Drawing.Point(322, 28);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(203, 203);
-            this.panel1.TabIndex = 6;
-            // 
-            // dgv1
-            // 
-            this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv1.Location = new System.Drawing.Point(550, 30);
-            this.dgv1.Name = "dgv1";
-            this.dgv1.RowHeadersWidth = 51;
-            this.dgv1.RowTemplate.Height = 29;
-            this.dgv1.Size = new System.Drawing.Size(417, 514);
-            this.dgv1.TabIndex = 7;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(image1);
+            panel1.Location = new Point(322, 28);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(203, 203);
+            panel1.TabIndex = 6;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(80, 246);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Show";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(80, 246);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 8;
+            button1.Text = "Show";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Location = new Point(671, 30);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(210, 202);
+            pictureBox1.TabIndex = 9;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(743, 255);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 20);
+            label3.TabIndex = 10;
+            label3.Text = "label3";
+            label3.Click += label3_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(979, 592);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dgv1);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.btnUpload);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.image1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(979, 592);
+            Controls.Add(label3);
+            Controls.Add(pictureBox1);
+            Controls.Add(button1);
+            Controls.Add(panel1);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(btnUpload);
+            Name = "Form1";
+            Text = "Form1";
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)image1).EndInit();
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -156,7 +167,8 @@
         private Label label1;
         private Label label2;
         private Panel panel1;
-        private DataGridView dgv1;
         private Button button1;
+        private PictureBox pictureBox1;
+        private Label label3;
     }
 }
